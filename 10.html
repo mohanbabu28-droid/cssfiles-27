@@ -1,0 +1,18 @@
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Images</title>
+    <link rel="stylesheet" href="style10.css">
+</head>
+<body>
+    <header>
+        <h1>Responsive Images</h1>
+    </header>
+    <div class="image-container">
+        <img src="small.jpg" srcset="small.jpg 600w, medium.jpg 1000w, large.jpg 1600w"
+             sizes="(max-width: 600px) 90vw, (max-width: 1000px) 80vw, 60vw"
+             alt="Responsive Image Example">
+    </div>
+</body>
+</html>

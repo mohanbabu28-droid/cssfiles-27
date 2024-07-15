@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Variables</title>
+    <style>
+        :root {
+            --primary-color: #3498db;
+            --secondary-color: #2ecc71;
+            --text-color: #333;
+            --font-size: 16px;
+            --spacing: 10px;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            font-size: var(--font-size);
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: #f2f2f2;
+            padding: var(--spacing);
+            margin: 0;
+        }
+        .container {
+            max-width: 600px;
+            margin: 20px auto;
+            padding: var(--spacing);
+            background-color: #fff;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: var(--primary-color);
+        }
+        p {
+            margin-bottom: var(--spacing);
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: var(--secondary-color);
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+            transition: background-color 0.3s;
+        }
+        .button:hover {
+            background-color: #27ae60;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to CSS Variables!</h1>
+        <p>This webpage demonstrates the use of CSS variables for common values like colors, font sizes, and spacing.</p>
+        <a href="#" class="button">Learn More</a>
+    </div>
+</body>
+</html>

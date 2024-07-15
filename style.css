@@ -1,0 +1,23 @@
+
+p {
+    color: purple;
+}
+
+#main-heading {
+    color: brown;
+}
+
+a[href] {
+    color: red;
+}
+
+div:hover {
+    color: orange;
+}
+
+
+p::first-letter {
+    font-size: 200%;
+    color: red;
+}
+

@@ -1,0 +1,36 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    line-height: 1.5;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.sans-serif { font-family: Arial, sans-serif; }
+.serif { font-family: 'Times New Roman', serif; }
+.monospace { font-family: 'Courier New', monospace; }
+
+.small { font-size: 12px; }
+.medium { font-size: 16px; }
+.large { font-size: 24px; }
+
+.light { font-weight: 300; }
+.normal { font-weight: 400; }
+.bold { font-weight: 700; }
+
+.italic { font-style: italic; }
+.normal-style { font-style: normal; }
+
+.tight { line-height: 1.2; }
+.normal-line-height { line-height: 1.5; }
+.loose { line-height: 2; }
+
+.uppercase { text-transform: uppercase; }
+.lowercase { text-transform: lowercase; }
+.capitalize { text-transform: capitalize; }

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CSS Animations</title>
+    <style>
+        .box {
+            width: 100px;
+            height: 100px;
+            margin: 20px;
+            background-color: lightgreen;
+            animation: exampleAnimation 5s ease-in-out 2s infinite;
+        }
+
+        @keyframes exampleAnimation {
+            0% {
+                transform: translateY(0);
+                background-color: lightgreen;
+            }
+            50% {
+                transform: translateY(200px);
+                background-color: orange;
+            }
+            100% {
+                transform: translateY(0);
+                background-color: lightgreen;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+</body>
+</html>

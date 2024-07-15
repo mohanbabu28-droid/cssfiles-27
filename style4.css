@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.box {
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.padding-example { padding: 20px; }
+
+.border-example {
+    border: 2px solid #333;
+    padding: 20px;
+}
+
+.margin-example {
+    margin: 20px;
+    padding: 20px;
+}
+
+.box-sizing-example {
+    width: 200px;
+    height: 200px;
+    border: 2px solid #333;
+    padding: 20px;
+    margin: 20px;
+}

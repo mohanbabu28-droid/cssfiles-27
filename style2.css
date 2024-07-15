@@ -1,0 +1,24 @@
+
+p {
+    color: #333;
+}
+
+.bg-color {
+    background-color: #ffeb3b;
+    padding: 10px;
+}
+
+.gradient-bg {
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    padding: 10px;
+    color: white;
+}
+
+.bg-image {
+    background-image: url('https://via.placeholder.com/300');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 150px;
+    width: 150px;
+    border: 1px solid #333;
+}
